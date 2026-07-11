@@ -1,0 +1,10 @@
+{
+  "name": "starcap-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original HTML5 side-scrolling platformer with modular JavaScript and JSON levels.",
+  "scripts": {
+    "start": "node server.js 5180",
+    "dev": "node server.js 5180"
+  }
+}
