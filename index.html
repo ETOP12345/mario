@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starcap Runner</title>
+    <link rel="stylesheet" href="src/styles.css?v=2">
+  </head>
+  <body>
+    <main id="shell">
+      <canvas id="game" width="960" height="540" aria-label="Starcap Runner game canvas"></canvas>
+      <section id="overlay" class="overlay">
+        <div class="panel">
+          <h1>Starcap Runner</h1>
+          <p>Run, jump, collect, and clear three original handcrafted stages.</p>
+          <div class="menu-grid">
+            <button data-action="start">Start Game</button>
+            <button data-action="continue">Load Save</button>
+            <button data-action="editor">Level Editor</button>
+            <button data-action="settings">Settings</button>
+          </div>
+        </div>
+      </section>
+      <section id="editorPanel" class="editor hidden">
+        <header>
+          <strong>JSON Level Editor</strong>
+          <button data-editor="close">Back</button>
+        </header>
+        <textarea id="levelJson" spellcheck="false"></textarea>
+        <footer>
+          <button data-editor="load">Load Into Game</button>
+          <button data-editor="download">Download JSON</button>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="src/main.js?v=5"></script>
+  </body>
+</html>
