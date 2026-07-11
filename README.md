@@ -2,7 +2,13 @@
 
 An original HTML5 side-scrolling platformer inspired by classic platform games without using copyrighted characters, artwork, level layouts, or sounds.
 
-## Run
+## Play
+
+GitHub Pages URL:
+
+https://etop12345.github.io/mario/
+
+## Run Locally
 
 ```bash
 npm run dev
