@@ -1,0 +1,53 @@
+{
+  "name": "Glowcap Underpass",
+  "theme": "underground",
+  "width": 118,
+  "height": 20,
+  "time": 360,
+  "spawn": { "x": 2, "y": 14 },
+  "solids": [
+    { "x": 0, "y": 18, "w": 30, "h": 2 },
+    { "x": 34, "y": 18, "w": 24, "h": 2 },
+    { "x": 62, "y": 18, "w": 24, "h": 2 },
+    { "x": 91, "y": 18, "w": 27, "h": 2 },
+    { "x": 8, "y": 14, "w": 6, "h": 1 },
+    { "x": 19, "y": 12, "w": 5, "h": 1 },
+    { "x": 38, "y": 15, "w": 8, "h": 1 },
+    { "x": 51, "y": 12, "w": 5, "h": 1 },
+    { "x": 69, "y": 14, "w": 6, "h": 1 },
+    { "x": 79, "y": 11, "w": 5, "h": 1 },
+    { "x": 97, "y": 14, "w": 7, "h": 1 }
+  ],
+  "blocks": [
+    { "x": 11, "y": 11, "kind": "question", "contains": "speed" },
+    { "x": 22, "y": 9, "kind": "break" },
+    { "x": 23, "y": 9, "kind": "break" },
+    { "x": 45, "y": 12, "kind": "question", "contains": "fire" },
+    { "x": 73, "y": 10, "kind": "question", "contains": "coin" },
+    { "x": 100, "y": 11, "kind": "question", "contains": "life" }
+  ],
+  "movingPlatforms": [
+    { "x": 30, "y": 15, "w": 3, "h": 0.5, "rangeX": 0, "rangeY": 70, "speed": 1.3 },
+    { "x": 58, "y": 15, "w": 3, "h": 0.5, "rangeX": 100, "rangeY": 0, "speed": 1.1 },
+    { "x": 87, "y": 14, "w": 3, "h": 0.5, "rangeX": 0, "rangeY": 85, "speed": 1.5 }
+  ],
+  "hazards": [
+    { "x": 30, "y": 19, "w": 4, "h": 1 },
+    { "x": 58, "y": 19, "w": 4, "h": 1 },
+    { "x": 86, "y": 19, "w": 5, "h": 1 }
+  ],
+  "coins": [
+    { "x": 9, "y": 12 }, { "x": 10, "y": 12 }, { "x": 11, "y": 12 },
+    { "x": 20, "y": 10 }, { "x": 21, "y": 10 }, { "x": 52, "y": 10 },
+    { "x": 70, "y": 12 }, { "x": 80, "y": 9 }, { "x": 81, "y": 9 },
+    { "x": 98, "y": 12 }, { "x": 99, "y": 12 }, { "x": 100, "y": 12 }
+  ],
+  "enemies": [
+    { "type": "walker", "x": 16, "y": 17, "left": 14, "right": 28, "speed": 85 },
+    { "type": "flying", "x": 41, "y": 12, "left": 37, "right": 50, "speed": 85 },
+    { "type": "patrol", "x": 70, "y": 17, "left": 63, "right": 84, "speed": 95 },
+    { "type": "flying", "x": 95, "y": 11, "left": 92, "right": 107, "speed": 90 }
+  ],
+  "checkpoints": [{ "x": 60, "y": 17, "w": 1, "h": 1 }],
+  "flag": { "x": 113, "y": 14 }
+}
